@@ -1,0 +1,331 @@
+@font-face{
+	src : url("montserrat/Montserrat-Regular.otf");
+	font-family : "Montserrat";
+}
+
+.navbar-default {
+     background-color: #fff; 
+     border-color: #fff;  
+}
+
+.navbar-default .navbar-brand {
+    font-size: 38px;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 20px;
+    letter-spacing: 2px;
+	color : #000;
+}
+
+#header{
+	width : 100%;
+	height : 100%;
+	background-image : url("../image/bg1.jpg");
+	background-size : cover;
+	background-repeat : no-repeat;
+}
+
+
+.carousel-inner{
+   margin-top : 10em;
+   margin-bottom : 10em;   
+}
+
+.carousel-indicators {
+    bottom: -4em;
+}
+
+.h2{
+    font-size: 3em;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.6em;
+    font-weight: 600;
+    letter-spacing: 18px;
+}
+
+.p1{
+    font-size: 3em;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.6em;
+    font-weight: 600;
+    letter-spacing: 18px;	
+}
+
+.p2{
+    font-size: 20px;
+    color: #fff;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: capitalize;	
+}
+
+body{
+   font-family: 'Montserrat', sans-serif;	
+}
+
+#education{
+	margin-top : 3em;
+}
+
+.myhead{
+    font-size: 2.7em;
+    color: #000;
+    margin-bottom : 2em;	
+	font-weight : 900;
+}
+
+.category h3{
+    color: #f8b239;
+    font-size: 20px;
+    letter-spacing: 1px;	
+	font-weight : 700;
+}
+
+p{
+    line-height: 1.8;
+    font-size: 15px;
+    color: #333;
+    letter-spacing: 0.5px;
+    font-family: 'Open Sans', sans-serif;	
+}
+
+.text-white{
+	color : #fff;
+}
+
+.registration{
+    padding: 51px 30px 49px;
+    background: #2d3e50;	
+}
+
+.registration h4{
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.2;
+	letter-spacing : 2px;
+    font-size : 1.5em;
+    padding-bottom : 1em;	
+}
+
+label{
+    font-size: 15px;
+    font-weight : 500;
+    letter-spacing: 1px;	
+}
+
+.mybtn{
+	margin-top : 2em;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    background: transparent;
+    border: 2px solid #f8b239;
+	color : #f8b239;
+    border-radius: 2px;
+    cursor: pointer;
+	margin-bottom : 3em;
+}
+
+.mybtn:hover,.mybtn:active{
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    background: #f8b239;
+    border: 2px solid #f8b239;
+    border-radius: 2px;
+    cursor: pointer;
+	transition : all 0.5s;
+	color : #fff;
+	margin-bottom : 3em;
+}
+
+
+#slide-bg{
+	width : 100%;
+	height : 100%;
+	margin-top : 5em;
+	background-attachment : fixed;
+	background-image : url("../image/bg2.jpg");
+	background-size : cover;
+	background-repeat : no-repeat;
+}
+
+
+.h3{
+	margin-top : 4em;
+	font-size : 2em;
+	font-weight : 500;
+}
+
+.mytext1 h2{
+    color: #fff;
+    font-size: 2.7em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    margin-top : 1em;
+}
+
+.mytext1 p{
+    letter-spacing: 1px;
+    margin-top : 2em;	
+}
+
+
+#services{
+  margin-top : 4em; 
+}
+
+.header{
+    font-size: 2.7em;
+    color: #000;
+    text-transform : uppercase;
+    font-weight : 700;	
+}
+
+.sec{
+	margin-top : 4em;
+}
+
+.customize{
+    font-size: 3em;
+    color: #f8b239;	
+}
+
+.sec h3{
+    font-size: 18px;
+    color: #000;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    font-weight: 600;	
+}
+
+#subscribe{
+	    margin-top : 4em;
+	    width : 100%;
+		height : 100%;
+	    background: linear-gradient(to right,#383df5 0%,#f8b239 100%);
+	    box-shadow: 0 11px 27px 0 rgba(154,49,188,.33);	
+}
+
+.sub-head{
+	margin-top : 3em;
+    font-size: 2.5em;
+    letter-spacing: 4px;
+    word-spacing: 3px;
+    font-weight : 900;
+    margin-bottom : 1.5em;	
+}
+
+.myform{
+	margin-bottom : 3em;
+}
+
+.mybtn-1{
+    border: none;
+    padding: 16px 20px 16px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: #383df5;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s all;	
+}
+
+.mybtn-1:hover{
+    border: none;
+    padding: 16px 20px 16px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: #383df5;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    background: #f8b239;
+    color: #ffffff;	
+    transition: 0.5s all;	
+}
+
+#courses{
+	margin-top : 5em;
+}
+
+.course-h3{
+    font-size: 2.7em;
+    color: #000;
+	letter-spacing : 3px;
+    font-weight : 800;
+    margin-bottom : 2em;	
+}
+
+
+.h5{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+    font-weight: 600;
+    color: #000;	
+}
+
+#footer{
+	margin-top : 5em;
+	background-color : #151515;
+}
+
+.sub-sec{
+	margin-top : 5em;
+}
+
+h6{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1px;	
+}
+
+.sub-sec p{
+    color: #808080;	
+}
+
+.sub-sec ul li{
+	list-style : none;
+	color : #808080;
+	padding-top : 5px;
+}
+
+.h6{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1px;		
+	margin-top : 3em;
+}
+
+.myimg{
+	border : 2px solid #e3e3e3;
+	padding : 4px;
+	margin : 4px;
+	cursor : pointer;
+}
+
+@media only screen and (max-width : 770px){
+	.nav{
+		display : none;
+	}
+}
